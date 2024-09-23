@@ -26,6 +26,7 @@ def fitness(pi_list, gen):
     val = 0
     for g in gen:
         if (g == 1):
+            print("{} is selected!".format(pi_list[gen.index(g)]))
             val = val + pi_list[gen.index(g)]
 
     return val

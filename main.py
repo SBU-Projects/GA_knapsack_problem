@@ -19,11 +19,10 @@ def first_generation(population, my_list):
         else:
             gen.append(curr_gen)
 
-    return deg
+    return gen
 if __name__ == '__main__':
     capacity = 100
     wi = [50, 30, 40, 60, 80, 90, 10, 20]
     pi = [10, 3, 12, 40, 5, 15, 4, 22]
 
-    my_list = initial_selection(wi)
-    print(my_list)
+    my_list = first_generation(5, wi)

@@ -26,3 +26,5 @@ if __name__ == '__main__':
     pi = [10, 3, 12, 40, 5, 15, 4, 22]
 
     my_list = first_generation(5, wi)
+    for ml in my_list:
+        print(ml)

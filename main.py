@@ -35,9 +35,23 @@ def fitness(pi_list, gen):
 def selection(population, pi):
 
     parents = []
-    print(population)
     random.shuffle(population)
-    print(population)
+
+
+    # tournament between first and second
+    if fitness(pi, population[0]) > fitness(pi, population[1]):
+        parents.append(population[0])
+    else:
+        parents.append(population[1])
+
+    # tournament between third and fourth
+    if fitness(pi, population[2]) > fitness(pi, population[3]):
+        parents.append(population[2])
+    else:
+        parents.append(population[3])
+
+    return parents
+
 
 
 if __name__ == '__main__':
@@ -45,6 +59,7 @@ if __name__ == '__main__':
     wi = [50, 30, 40, 60, 80, 90, 10, 20]
     pi = [10, 3, 12, 40, 5, 15, 4, 22]
 
-    my_list = first_generation(5, wi)
-    for ml in my_list:
-        print(ml, fitness(pi, ml))
+    my_list = first_generation(8, wi)
+    print(selection(my_list, pi))
+
+

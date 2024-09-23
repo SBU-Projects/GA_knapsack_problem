@@ -28,7 +28,7 @@ def fitness(pi_list, gen):
     for g in gen:
         if (g == 1):
             val += pi_list[loop_counter]
-            loop_counter += loop_counter
+        loop_counter += 1
 
     return val
 

@@ -32,6 +32,13 @@ def fitness(pi_list, gen):
 
     return val
 
+def selection(population, pi):
+
+    parents = []
+    print(population)
+    random.shuffle(population)
+    print(population)
+
 
 if __name__ == '__main__':
     capacity = 100

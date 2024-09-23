@@ -24,12 +24,11 @@ def first_generation(population, my_list):
 
 def fitness(pi_list, gen):
     val = 0
-    print(gen)
+    loop_counter = 0
     for g in gen:
-        print("curr G {}".format(g))
         if (g == 1):
-            print("{} is selected!".format(pi_list[gen.index(g)]))
-            val = val + pi_list[gen.index(g)]
+            val += pi_list[loop_counter]
+            loop_counter += loop_counter
 
     return val
 

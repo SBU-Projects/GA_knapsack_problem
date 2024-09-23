@@ -8,6 +8,18 @@ def initial_selection(my_list):
         xi.append(curr_c)
     return xi
 
+
+def first_generation(population, my_list):
+    gen = []
+    for i in range(0, population):
+        curr_gen = initial_selection(my_list)
+        if curr_gen in gen:
+            #avoid to appending douplicated generaions
+            i = i-1
+        else:
+            gen.append(curr_gen)
+
+    return deg
 if __name__ == '__main__':
     capacity = 100
     wi = [50, 30, 40, 60, 80, 90, 10, 20]

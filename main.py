@@ -19,6 +19,9 @@ def first_generation(population, my_list):
         else:
             gen.append(curr_gen)
 
+    return gen
+
+
 def fitness(pi_list, gen):
     val = 0
     for g in gen:
@@ -27,7 +30,7 @@ def fitness(pi_list, gen):
 
     return val
 
-    return gen
+
 if __name__ == '__main__':
     capacity = 100
     wi = [50, 30, 40, 60, 80, 90, 10, 20]
@@ -35,4 +38,4 @@ if __name__ == '__main__':
 
     my_list = first_generation(5, wi)
     for ml in my_list:
-        print(ml)
+        print(ml, fitness(pi, ml))

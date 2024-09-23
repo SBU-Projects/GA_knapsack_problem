@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="sample data">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727106654655</updated>
-      <workItem from="1727106680275" duration="1268000" />
+      <workItem from="1727106680275" duration="2079000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -95,7 +94,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
       <updated>1727106874137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎−۰۰۰۰۳" summary="sample data">
+      <option name="closed" value="true" />
+      <created>1727114715791</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
+      <updated>1727114715792</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,13 +109,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="sample data" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
+          <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

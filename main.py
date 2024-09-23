@@ -26,7 +26,7 @@ def fitness(pi_list, gen):
     val = 0
     for g in gen:
         if (g == 1):
-            val =+ pi_list[gen.index(g)]
+            val += pi_list[gen.index(g)]
 
     return val
 

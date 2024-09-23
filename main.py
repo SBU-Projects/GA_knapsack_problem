@@ -19,6 +19,14 @@ def first_generation(population, my_list):
         else:
             gen.append(curr_gen)
 
+def fitness(pi_list, gen):
+    val = 0
+    for g in gen:
+        if (g == 1):
+            val =+ pi_list[gen.index(g)]
+
+    return val
+
     return gen
 if __name__ == '__main__':
     capacity = 100

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="sample data">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="first_generation test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727106654655</updated>
-      <workItem from="1727106680275" duration="2079000" />
+      <workItem from="1727106680275" duration="2527000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -101,7 +99,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
       <updated>1727114715792</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎−۰۰۰۰۴" summary="initial_selection test">
+      <option name="closed" value="true" />
+      <created>1727114886139</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
+      <updated>1727114886139</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۵" summary="initial_selection test">
+      <option name="closed" value="true" />
+      <created>1727114915959</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۵" />
+      <updated>1727114915959</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۶" summary="first_generation">
+      <option name="closed" value="true" />
+      <created>1727115159190</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۶" />
+      <updated>1727115159190</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۷" summary="first_generation test">
+      <option name="closed" value="true" />
+      <created>1727115203351</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
+      <updated>1727115203351</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۸" summary="first_generation test">
+      <option name="closed" value="true" />
+      <created>1727115235291</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
+      <updated>1727115235291</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,20 +143,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="sample data" />
-    <option name="LAST_COMMIT_MESSAGE" value="sample data" />
+    <MESSAGE value="initial_selection" />
+    <MESSAGE value="initial_selection test" />
+    <MESSAGE value="first_generation" />
+    <MESSAGE value="first_generation test" />
+    <option name="LAST_COMMIT_MESSAGE" value="first_generation test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>6</line>
+          <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727106864966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727115229465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -121,12 +121,12 @@ if __name__ == '__main__':
     wi = [50, 30, 40, 60, 80, 90, 10, 20]
     pi = [10, 3, 12, 40, 5, 15, 4, 22]
 
-    population = first_generation(8, wi)
+    population = first_generation(500, wi)
     print(population)
     answer = 0
     answer_p = []
 
-    for i in range(50000):
+    for i in range(100):
         for p in population:
             if check_cap(wi, p) < capacity:
                 if fitness(pi, p) >= answer:

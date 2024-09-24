@@ -1,6 +1,6 @@
 import random
 
-
+Mutate_Rate = 0.01
 def initial_selection(my_list):
     xi = []
     for ml in my_list:
@@ -65,6 +65,18 @@ def crossver(parents):
 
     return [child1, child2]
 
+def mutate(population):
+    for pop in population:
+        pop_counter = 0
+        for p in pop:
+            if random.random()<Mutate_Rate:
+                print("Mutation is called")
+                if p == 0:
+                    pop[pop_counter] = 1
+                else:
+                    pop[pop_counter] = 0
+
+    return population
 
 
 

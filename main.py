@@ -125,8 +125,10 @@ if __name__ == '__main__':
     print(population)
     avg_fit = []
     for p in population:
-        print(fitness(pi, p))
-        print(check_cap(wi, p))
+        if check_cap(wi, p) < capacity:
+            avg_fit.append(fitness(pi, p))
+            population = next_generation(population, pi)
 
-
+    population = sorted(population, key=lambda i: i.fitness(), reverse=True)
+    print(population)
 

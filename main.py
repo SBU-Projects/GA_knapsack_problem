@@ -83,7 +83,26 @@ def mutate(population):
     return population
 
 
+def next_generation(population, pi):
+    nextgen = []
 
+    while len(nextgen) < len(population):
+        childs = []
+
+        parents = selection(population, pi)
+
+        if random.random() < REPRODUCTION_RATE:
+            childs = parents
+        else:
+            if random.random() < MUTATION_RATE:
+                childs = mutate(childs)
+
+            if random.random() < CROSSOVER_RATE:
+                childs = crossver(parents)
+
+        nextgen.extend(childs)
+
+    return nextgen[:len(population)]
 
 
 if __name__ == '__main__':
@@ -93,7 +112,7 @@ if __name__ == '__main__':
 
     my_list = first_generation(8, wi)
     print(my_list)
-    print(mutate(my_list))
+    print(next_generation(my_list, pi))
 
 
 

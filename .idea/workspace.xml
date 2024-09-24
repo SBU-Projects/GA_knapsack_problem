@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="mutate">
+    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="rates:&#10;MUTATION_RATE = 0.02&#10;CROSSOVER_RATE = 0.2&#10;REPRODUCTION_RATE = 0.78">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727106654655</updated>
       <workItem from="1727106680275" duration="4712000" />
-      <workItem from="1727171130664" duration="3915000" />
+      <workItem from="1727171130664" duration="4369000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -284,7 +284,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۹" />
       <updated>1727181293524</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL‎−۰۰۰۳۰" summary="mutate">
+      <option name="closed" value="true" />
+      <created>1727181374919</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۰" />
+      <updated>1727181374919</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۱" summary="rates:&#10;MUTATION_RATE = 0.02&#10;CROSSOVER_RATE = 0.2&#10;REPRODUCTION_RATE = 0.78">
+      <option name="closed" value="true" />
+      <created>1727181465690</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۱" />
+      <updated>1727181465690</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,14 +319,15 @@
     <MESSAGE value="parents" />
     <MESSAGE value="parents test" />
     <MESSAGE value="mutate" />
-    <option name="LAST_COMMIT_MESSAGE" value="mutate" />
+    <MESSAGE value="rates:&#10;MUTATION_RATE = 0.02&#10;CROSSOVER_RATE = 0.2&#10;REPRODUCTION_RATE = 0.78" />
+    <option name="LAST_COMMIT_MESSAGE" value="rates:&#10;MUTATION_RATE = 0.02&#10;CROSSOVER_RATE = 0.2&#10;REPRODUCTION_RATE = 0.78" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>85</line>
+          <line>105</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

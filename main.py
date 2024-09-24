@@ -76,6 +76,8 @@ def mutate(population):
                 else:
                     pop[pop_counter] = 0
 
+                pop_counter += 1
+
     return population
 
 
@@ -88,9 +90,8 @@ if __name__ == '__main__':
     pi = [10, 3, 12, 40, 5, 15, 4, 22]
 
     my_list = first_generation(8, wi)
-    parents = selection(my_list, pi)
-    print(parents)
-    print(crossver(parents))
+    print(my_list)
+    print(mutate(my_list))
 
 
 

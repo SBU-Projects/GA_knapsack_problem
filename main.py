@@ -35,6 +35,16 @@ def fitness(pi_list, gen):
 
     return val
 
+def check_cap(wi_list, gen):
+    val = 0
+    loop_counter = 0
+    for g in gen:
+        if (g == 1):
+            val += wi_list[loop_counter]
+        loop_counter += 1
+
+    return val
+
 def selection(population, pi):
 
     parents = []
@@ -105,14 +115,17 @@ def next_generation(population, pi):
     return nextgen[:len(population)]
 
 
+
 if __name__ == '__main__':
     capacity = 100
     wi = [50, 30, 40, 60, 80, 90, 10, 20]
     pi = [10, 3, 12, 40, 5, 15, 4, 22]
 
-    my_list = first_generation(8, wi)
-    print(my_list)
-    print(next_generation(my_list, pi))
+    population = first_generation(8, wi)
+    print(population)
+    avg_fit = []
+    for p in population:
+        print(fitness(pi, p))
 
 
 

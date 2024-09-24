@@ -117,7 +117,7 @@ def next_generation(population, pi):
 
 
 if __name__ == '__main__':
-    capacity = 100
+    capacity = 200
     wi = [50, 30, 40, 60, 80, 90, 10, 20]
     pi = [10, 3, 12, 40, 5, 15, 4, 22]
 
@@ -126,6 +126,7 @@ if __name__ == '__main__':
     avg_fit = []
     for p in population:
         print(fitness(pi, p))
+        print(check_cap(wi, p))
 
 
 

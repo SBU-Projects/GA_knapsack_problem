@@ -63,7 +63,7 @@ def crossver(parents):
     child1.extend(parents[1][cros_site:len(parents[0])])
     child2.extend(parents[0][cros_site:len(parents[0])])
 
-    return child1, child2
+    return [child1, child2]
 
 
 

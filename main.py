@@ -1,6 +1,9 @@
 import random
 
-MUTATION_RATE = 0.01
+MUTATION_RATE = 0.02
+CROSSOVER_RATE = 0.2
+REPRODUCTION_RATE = 0.78
+
 def initial_selection(my_list):
     xi = []
     for ml in my_list:

@@ -69,6 +69,9 @@ if __name__ == '__main__':
     pi = [10, 3, 12, 40, 5, 15, 4, 22]
 
     my_list = first_generation(8, wi)
-    print(selection(my_list, pi))
+    parents = selection(my_list, pi)
+    print(parents)
+    print(crossver(parents))
+
 
 

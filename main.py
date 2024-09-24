@@ -126,7 +126,7 @@ if __name__ == '__main__':
     answer = 0
     answer_p = []
 
-    for i in range(10000):
+    for i in range(50000):
         for p in population:
             if check_cap(wi, p) < capacity:
                 if fitness(pi, p) >= answer:

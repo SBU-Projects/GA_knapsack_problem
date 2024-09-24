@@ -54,12 +54,24 @@ def selection(population, pi):
 
 
 def crossver(parents):
-    N = len(parents[0])
 
-    child1 = parents[0].bits[:N // 2] + parents[1].bits[N // 2:]
-    child2 = parents[0].bits[N // 2:] + parents[1].bits[:N // 2]
+    for p in parents:
+        childs = []
+        counter = 0
+        for el in p:
+            cur_p = p
+            if el == 0:
+                cur_p[counter] = 1
+            else:
+                cur_p[counter] = 0
+            counter += 1
 
-    return [child1, child2]
+            childs.append(cur_p)
+
+    return childs
+
+
+
 
 
 

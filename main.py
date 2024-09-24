@@ -53,6 +53,15 @@ def selection(population, pi):
     return parents
 
 
+def crossver(parents):
+    N = len(parents[0])
+
+    child1 = parents[0].bits[:N // 2] + parents[1].bits[N // 2:]
+    child2 = parents[0].bits[N // 2:] + parents[1].bits[:N // 2]
+
+    return [child1, child2]
+
+
 
 if __name__ == '__main__':
     capacity = 100

@@ -123,12 +123,17 @@ if __name__ == '__main__':
 
     population = first_generation(8, wi)
     print(population)
-    avg_fit = []
-    for p in population:
-        if check_cap(wi, p) < capacity:
-            avg_fit.append(fitness(pi, p))
-            population = next_generation(population, pi)
+    answer = 0
+    answer_p = []
 
-    population = sorted(population, key=lambda i: i.fitness(), reverse=True)
-    print(population)
+    for i in range(10000):
+        for p in population:
+            if check_cap(wi, p) < capacity:
+                if fitness(pi, p) >= answer:
+                    answer = fitness(pi, p)
+                    answer_p = p
+
+                population = next_generation(population, pi)
+
+    print(answer_p, answer)
 

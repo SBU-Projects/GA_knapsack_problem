@@ -70,7 +70,6 @@ def mutate(population):
         pop_counter = 0
         for p in pop:
             if random.random()<Mutate_Rate:
-                print("Mutation is called")
                 if p == 0:
                     pop[pop_counter] = 1
                 else:

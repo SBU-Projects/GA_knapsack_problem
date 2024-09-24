@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="parents test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727106654655</updated>
       <workItem from="1727106680275" duration="4712000" />
-      <workItem from="1727171130664" duration="1292000" />
+      <workItem from="1727171130664" duration="1905000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -228,7 +228,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۱" />
       <updated>1727171929242</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL‎−۰۰۰۲۲" summary="parents test">
+      <option name="closed" value="true" />
+      <created>1727172898966</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۲" />
+      <updated>1727172898966</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,13 +262,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>65</line>
+          <line>77</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727171872595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727173028440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

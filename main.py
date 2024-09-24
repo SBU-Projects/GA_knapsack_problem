@@ -54,9 +54,14 @@ def selection(population, pi):
 
 
 def crossver(parents):
-    cros_site = len(parents)//2
 
-    return cros_site
+    cros_site = len(parents[0])//2
+
+    child1 = parents[0][0:cros_site]
+    child2 = parents[0][0:cros_site]
+
+    child1.append(parents[1][cros_site - 1:len(parents[0])])
+    child2.append(parents[0][cros_site - 1:len(parents[0])])
 
 
 

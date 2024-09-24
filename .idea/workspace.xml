@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="parents test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="mutate">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727106654655</updated>
       <workItem from="1727106680275" duration="4712000" />
-      <workItem from="1727171130664" duration="3373000" />
+      <workItem from="1727171130664" duration="3915000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -257,7 +256,35 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۵" />
       <updated>1727174312552</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL‎−۰۰۰۲۶" summary="parents test">
+      <option name="closed" value="true" />
+      <created>1727180763697</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۶" />
+      <updated>1727180763697</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۷" summary="mutate test">
+      <option name="closed" value="true" />
+      <created>1727181040494</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۷" />
+      <updated>1727181040494</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۸" summary="mutate">
+      <option name="closed" value="true" />
+      <created>1727181257487</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۸" />
+      <updated>1727181257487</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۹" summary="mutate">
+      <option name="closed" value="true" />
+      <created>1727181293524</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۹" />
+      <updated>1727181293524</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,20 +304,21 @@
     <MESSAGE value="test selection test" />
     <MESSAGE value="parents" />
     <MESSAGE value="parents test" />
-    <option name="LAST_COMMIT_MESSAGE" value="parents test" />
+    <MESSAGE value="mutate" />
+    <option name="LAST_COMMIT_MESSAGE" value="mutate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>72</line>
+          <line>85</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727174323192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727181213649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

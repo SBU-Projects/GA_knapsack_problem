@@ -1,6 +1,6 @@
 import random
 
-Mutate_Rate = 0.01
+MUTATION_RATE = 0.01
 def initial_selection(my_list):
     xi = []
     for ml in my_list:
@@ -69,7 +69,7 @@ def mutate(population):
     for pop in population:
         pop_counter = 0
         for p in pop:
-            if random.random()<Mutate_Rate:
+            if random.random() < MUTATION_RATE:
                 if p == 0:
                     pop[pop_counter] = 1
                 else:

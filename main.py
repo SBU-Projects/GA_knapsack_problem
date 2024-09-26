@@ -1,4 +1,10 @@
 import random
+import pandas as pd
+from functions import GeneticAlgorithm
+
+
+dataframe = pd.read_csv("datasets/knapsack_5_items_new.csv")
+print(dataframe)
 
 MUTATION_RATE = 0.02
 CROSSOVER_RATE = 0.2

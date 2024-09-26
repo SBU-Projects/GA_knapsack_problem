@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="GA init">
+    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="GA df">
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,7 @@
       <updated>1727106654655</updated>
       <workItem from="1727106680275" duration="4712000" />
       <workItem from="1727171130664" duration="7459000" />
-      <workItem from="1727360692528" duration="1408000" />
+      <workItem from="1727360692528" duration="1823000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -390,7 +391,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۴۳" />
       <updated>1727362019140</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL‎−۰۰۰۴۴" summary="GA df">
+      <option name="closed" value="true" />
+      <created>1727362241618</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۴" />
+      <updated>1727362241618</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۵" summary="GA df">
+      <option name="closed" value="true" />
+      <created>1727362355129</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۵" />
+      <updated>1727362355129</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,20 +432,21 @@
     <MESSAGE value="datasets" />
     <MESSAGE value="GA" />
     <MESSAGE value="GA init" />
-    <option name="LAST_COMMIT_MESSAGE" value="GA init" />
+    <MESSAGE value="GA df" />
+    <option name="LAST_COMMIT_MESSAGE" value="GA df" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>122</line>
+          <line>127</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727361638544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727362465666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

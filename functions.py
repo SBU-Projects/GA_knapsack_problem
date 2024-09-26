@@ -7,4 +7,4 @@ class GeneticAlgorithm:
         self.CROSSOVER_RATE = 0.2
         self.REPRODUCTION_RATE = 0.78
 
-
+    def data_engine(self):

@@ -4,8 +4,9 @@ from functions import GeneticAlgorithm
 
 
 dataframe = pd.read_csv("datasets/knapsack_5_items_new.csv")
-print(dataframe)
+GA = GeneticAlgorithm(dataframe)
 
+"""
 MUTATION_RATE = 0.02
 CROSSOVER_RATE = 0.2
 REPRODUCTION_RATE = 0.78
@@ -143,3 +144,4 @@ if __name__ == '__main__':
 
     print(answer_p, answer)
 
+"""

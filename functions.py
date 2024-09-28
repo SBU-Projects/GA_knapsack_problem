@@ -152,7 +152,7 @@ class GeneticAlgorithm:
 
                 real_value.append(bp)
                 GA_value.append(gav)
+
                 step_counter += 1
 
-        print(real_value)
-        print(GA_value)
+        return [real_value, GA_value]

@@ -120,7 +120,6 @@ class GeneticAlgorithm:
 
     def genetic_algorithm(self, wi, pi, capacity):
         population = self.first_generation(wi)
-        print(population)
         answer = 0
         answer_p = []
 
@@ -137,12 +136,15 @@ class GeneticAlgorithm:
 
     def run(self):
 
-        stoper = 200
+        print("|        |")
+        stoper = 100
         step_counter = 1
 
         real_value = []
         GA_value = []
         for index, row in self.dataframe.iterrows():
+            if step_counter%(stoper/10) == 0:
+                print("*", end="")
             if step_counter <= stoper:
                 capacity = row['Capacity']
                 wi = row['Wi']

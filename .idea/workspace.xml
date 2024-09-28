@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="GA run on df" />
+    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="GA run on df">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,42 +89,7 @@
       <workItem from="1727106680275" duration="4712000" />
       <workItem from="1727171130664" duration="7459000" />
       <workItem from="1727360692528" duration="2462000" />
-      <workItem from="1727538513893" duration="1293000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۸" summary="first_generation test">
-      <option name="closed" value="true" />
-      <created>1727115235291</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
-      <updated>1727115235291</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۹" summary="fit">
-      <option name="closed" value="true" />
-      <created>1727115576876</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۹" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
-      <updated>1727115576876</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۰" summary="fit test">
-      <option name="closed" value="true" />
-      <created>1727115708193</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۰" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۰" />
-      <updated>1727115708193</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۱" summary="fit test">
-      <option name="closed" value="true" />
-      <created>1727115753943</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۱" />
-      <updated>1727115753943</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۲" summary="fit test">
-      <option name="closed" value="true" />
-      <created>1727115790187</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۲" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۲" />
-      <updated>1727115790187</updated>
+      <workItem from="1727538513893" duration="3748000" />
     </task>
     <task id="LOCAL‎−۰۰۰۱۳" summary="fit debuging">
       <option name="closed" value="true" />
@@ -431,7 +399,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۵۶" />
       <updated>1727539686469</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL‎−۰۰۰۵۷" summary="GA run on df">
+      <option name="closed" value="true" />
+      <created>1727539964872</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۷" />
+      <updated>1727539964872</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۸" summary="GA run on df">
+      <option name="closed" value="true" />
+      <created>1727540059634</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۸" />
+      <updated>1727540059634</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۹" summary="GA run on df">
+      <option name="closed" value="true" />
+      <created>1727540334646</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۹" />
+      <updated>1727540334646</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۰" summary="GA run on df">
+      <option name="closed" value="true" />
+      <created>1727540363155</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۰" />
+      <updated>1727540363155</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۱" summary="GA run on df">
+      <option name="closed" value="true" />
+      <created>1727540409420</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۱" />
+      <updated>1727540409420</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,18 +465,7 @@
     <MESSAGE value="GA run on df" />
     <option name="LAST_COMMIT_MESSAGE" value="GA run on df" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>127</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727539678520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Knapsack$main.coverage" NAME="main Coverage Results" MODIFIED="1727543765120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

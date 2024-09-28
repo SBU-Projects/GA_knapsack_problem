@@ -118,3 +118,20 @@ class GeneticAlgorithm:
 
         return nextgen[:len(population)]
 
+    def genetic_algorithm(self, wi, pi, capacity):
+        population = self.first_generation(500, wi)
+        print(population)
+        answer = 0
+        answer_p = []
+
+        for i in range(100):
+            for p in population:
+                if self.check_cap(wi, p) < capacity:
+                    if self.fitness(pi, p) >= answer:
+                        answer = self.fitness(pi, p)
+                        answer_p = p
+
+                    population = self.next_generation(population, pi)
+
+        print(answer_p, answer)
+

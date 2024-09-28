@@ -119,7 +119,7 @@ class GeneticAlgorithm:
         return nextgen[:len(population)]
 
     def genetic_algorithm(self, wi, pi, capacity):
-        population = self.first_generation(500, wi)
+        population = self.first_generation(wi)
         print(population)
         answer = 0
         answer_p = []
@@ -142,5 +142,4 @@ class GeneticAlgorithm:
             wi = row['Wi']
             pi = row['Pi']
 
-            print("cap: {}, {}, {}".format(capacity, wi, pi))
-
+            print(self.genetic_algorithm(wi, pi, capacity))

@@ -42,7 +42,7 @@ class GeneticAlgorithm:
 
         return val
 
-    def check_cap(wi_list, gen):
+    def check_cap(self, wi_list, gen):
         val = 0
         loop_counter = 0
         for g in gen:
@@ -52,7 +52,7 @@ class GeneticAlgorithm:
 
         return val
 
-    def selection(population, pi):
+    def selection(self, population, pi):
 
         parents = []
         random.shuffle(population)

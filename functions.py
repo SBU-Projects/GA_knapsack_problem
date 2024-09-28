@@ -137,7 +137,7 @@ class GeneticAlgorithm:
     def run(self):
 
         print("|        |")
-        stoper = 100
+        stoper = 200
         step_counter = 1
 
         real_value = []

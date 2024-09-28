@@ -137,9 +137,13 @@ class GeneticAlgorithm:
 
     def run(self):
 
-        for index, row in self.dataframe.iterrows():
-            capacity = row['Capacity']
-            wi = row['Wi']
-            pi = row['Pi']
+        stoper = 200
+        step_counter = 1
 
-            print(self.genetic_algorithm(wi, pi, capacity))
+        for index, row in self.dataframe.iterrows():
+            if step_counter <= stoper:
+                capacity = row['Capacity']
+                wi = row['Wi']
+                pi = row['Pi']
+                print(self.genetic_algorithm(wi, pi, capacity))
+                step_counter += 1

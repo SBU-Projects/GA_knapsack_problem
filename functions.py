@@ -136,6 +136,11 @@ class GeneticAlgorithm:
         print(answer_p, answer)
 
     def run(self):
-        for df in self.dataframe:
-            print(df)
+
+        for index, row in self.dataframe.iterrows():
+            capacity = row['capacit']
+            wi = row['Wi']
+            pi = row['Pi']
+
+            print("cap: {}, {}, {}".format(capacity, wi, pi))
 

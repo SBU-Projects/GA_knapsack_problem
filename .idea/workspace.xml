@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="GA df">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="27323646-b225-4c7b-ba26-5ec3de42b9dd" name="Changes" comment="GA run on df">
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,34 +88,7 @@
       <workItem from="1727106680275" duration="4712000" />
       <workItem from="1727171130664" duration="7459000" />
       <workItem from="1727360692528" duration="2462000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۱" summary="init">
-      <option name="closed" value="true" />
-      <created>1727106794621</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
-      <updated>1727106794621</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۲" summary="init">
-      <option name="closed" value="true" />
-      <created>1727106874137</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۲" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
-      <updated>1727106874137</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۳" summary="sample data">
-      <option name="closed" value="true" />
-      <created>1727114715791</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
-      <updated>1727114715792</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۴" summary="initial_selection test">
-      <option name="closed" value="true" />
-      <created>1727114886139</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
-      <updated>1727114886139</updated>
+      <workItem from="1727538513893" duration="636000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۵" summary="initial_selection test">
       <option name="closed" value="true" />
@@ -425,7 +398,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۴۸" />
       <updated>1727363134513</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL‎−۰۰۰۴۹" summary="GA df">
+      <option name="closed" value="true" />
+      <created>1727538678200</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۹" />
+      <updated>1727538678201</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۰" summary="GA df">
+      <option name="closed" value="true" />
+      <created>1727538700436</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۰" />
+      <updated>1727538700437</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۱" summary="GA df">
+      <option name="closed" value="true" />
+      <created>1727538794336</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۱" />
+      <updated>1727538794336</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۲" summary="GA run n df">
+      <option name="closed" value="true" />
+      <created>1727538981846</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۲" />
+      <updated>1727538981846</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۳" summary="GA run on df">
+      <option name="closed" value="true" />
+      <created>1727539052723</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۳" />
+      <updated>1727539052724</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +461,8 @@
     <MESSAGE value="GA" />
     <MESSAGE value="GA init" />
     <MESSAGE value="GA df" />
-    <option name="LAST_COMMIT_MESSAGE" value="GA df" />
+    <MESSAGE value="GA run on df" />
+    <option name="LAST_COMMIT_MESSAGE" value="GA run on df" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

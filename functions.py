@@ -58,20 +58,20 @@ class GeneticAlgorithm:
         random.shuffle(population)
 
         # tournament between first and second
-        if fitness(pi, population[0]) > fitness(pi, population[1]):
+        if self.fitness(pi, population[0]) > self.fitness(pi, population[1]):
             parents.append(population[0])
         else:
             parents.append(population[1])
 
         # tournament between third and fourth
-        if fitness(pi, population[2]) > fitness(pi, population[3]):
+        if self.fitness(pi, population[2]) > self.fitness(pi, population[3]):
             parents.append(population[2])
         else:
             parents.append(population[3])
 
         return parents
 
-    def crossver(parents):
+    def crossver(self, parents):
 
         cros_site = len(parents[0]) // 2
 
@@ -83,11 +83,11 @@ class GeneticAlgorithm:
 
         return [child1, child2]
 
-    def mutate(population):
+    def mutate(self, population):
         for pop in population:
             pop_counter = 0
             for p in pop:
-                if random.random() < MUTATION_RATE:
+                if random.random() < self.MUTATION_RATE:
                     if p == 0:
                         pop[pop_counter] = 1
                     else:
@@ -97,22 +97,22 @@ class GeneticAlgorithm:
 
         return population
 
-    def next_generation(population, pi):
+    def next_generation(self, population, pi):
         nextgen = []
 
         while len(nextgen) < len(population):
             childs = []
 
-            parents = selection(population, pi)
+            parents = self.selection(population, pi)
 
-            if random.random() < REPRODUCTION_RATE:
+            if random.random() < self.REPRODUCTION_RATE:
                 childs = parents
             else:
-                if random.random() < MUTATION_RATE:
-                    childs = mutate(childs)
+                if random.random() < self.MUTATION_RATE:
+                    childs = self.mutate(childs)
 
-                if random.random() < CROSSOVER_RATE:
-                    childs = crossver(parents)
+                if random.random() < self.CROSSOVER_RATE:
+                    childs = self.crossver(parents)
 
             nextgen.extend(childs)
 

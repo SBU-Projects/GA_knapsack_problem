@@ -133,17 +133,26 @@ class GeneticAlgorithm:
 
                     population = self.next_generation(population, pi)
 
-        print(answer_p, answer)
+        return answer
 
     def run(self):
 
         stoper = 200
         step_counter = 1
 
+        real_value = []
+        GA_value = []
         for index, row in self.dataframe.iterrows():
             if step_counter <= stoper:
                 capacity = row['Capacity']
                 wi = row['Wi']
                 pi = row['Pi']
-                print(self.genetic_algorithm(wi, pi, capacity))
+                bp = row['Best price']
+                gav = self.genetic_algorithm(wi, pi, capacity)
+
+                real_value.append(bp)
+                GA_value.append(gav)
                 step_counter += 1
+
+        print(real_value)
+        print(GA_value)

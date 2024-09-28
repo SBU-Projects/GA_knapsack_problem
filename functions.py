@@ -158,3 +158,19 @@ class GeneticAlgorithm:
                 step_counter += 1
 
         return [real_value, GA_value]
+
+    def evaluator(self):
+
+        run = self.run()
+        real = run[0]
+        resault = run[1]
+
+        TP = 0
+        counter = 0
+
+        for re in real:
+            if re == resault[counter]:
+                TP += 1
+            counter += 1
+
+        return TP/len(real)

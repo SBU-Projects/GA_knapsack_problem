@@ -135,3 +135,7 @@ class GeneticAlgorithm:
 
         print(answer_p, answer)
 
+    def run(self):
+        for df in self.dataframe:
+            print(df)
+

@@ -6,7 +6,7 @@ from functions import GeneticAlgorithm
 dataframe = pd.read_csv("datasets/knapsack_5_items_new.csv")
 GA = GeneticAlgorithm(dataframe)
 GA.data_engine()
-print(GA.initial_selection())
+GA.run()
 
 """
 MUTATION_RATE = 0.02

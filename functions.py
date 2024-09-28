@@ -138,7 +138,7 @@ class GeneticAlgorithm:
     def run(self):
 
         for index, row in self.dataframe.iterrows():
-            capacity = row['capacit']
+            capacity = row['Capacity']
             wi = row['Wi']
             pi = row['Pi']
 
